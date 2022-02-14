@@ -15,7 +15,7 @@ public class InputStreamTest {
 		System.out.println(str);
 		
 		br.close();
-		isr.close();// 닫아주는 과정 필요 
+		isr.close();// io프로그램에서는 닫아주는 과정 필요 -경우에 따라 다름. 채팅같은경우는 클로즈 하지 않음. 
 	}
 
 }
