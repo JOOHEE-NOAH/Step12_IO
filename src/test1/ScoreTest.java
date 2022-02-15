@@ -40,7 +40,7 @@ public class ScoreTest {
 //		System.out.print("\t√—¡° : "+(k+e+m));
 //		System.out.printf("\t∆Ú±’ : %.2f\n",(double)(k+e+m)/3);
 //	
-	
+		br.close();
 
 		
 
