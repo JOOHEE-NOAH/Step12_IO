@@ -3,8 +3,6 @@ package test4;
 import java.io.Serializable;
 
 public class User implements Serializable {
-	
-
 	/**
 	 * 
 	 */
@@ -12,10 +10,6 @@ public class User implements Serializable {
 	private String name;
 	private int age;
 	private double tall;
-	
-	public User() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public User(String name, int age, double tall) {
 		super();
