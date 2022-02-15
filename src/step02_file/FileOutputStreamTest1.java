@@ -8,6 +8,13 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 
 public class FileOutputStreamTest1 {
+/*
+ * 데이터 입출력 방식
+ * byte---- InputStream
+ * 			OutputStream
+ * character ---- Reader
+ * 				  Writer
+*/
 
 	public static void main(String[] args) throws IOException {
 		OutputStream out = new FileOutputStream("src/step02_file/data1.txt"); //out객체 생성
